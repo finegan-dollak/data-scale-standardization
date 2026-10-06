@@ -1,0 +1,353 @@
+name,model_cls,embedding_mode,spearman,layer_num,standardization,Data Scale
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.1212326667193186,0,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0934968919924336,0,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0820783894682996,0,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0657850393902077,0,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.1100608178503174,1,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0589395925243637,1,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0725627761115135,1,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0372064656435407,1,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.1024051481812397,2,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0653235139014074,2,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0697104945477894,2,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0355465229542715,2,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0821254814495467,3,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0598792114539609,3,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0832788528379217,3,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0499571566856084,3,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0628279999839827,4,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0601512977880395,4,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.091981499117551,4,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0668604035886881,4,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0584283210525616,5,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0658262696986453,5,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.085869284931478,5,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0703961357403141,5,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0544371898833058,6,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,contextualized,0.0717971838683985,6,Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0817775785301964,6,Not Standardized,10M
+BaselineLM - LocNar+Wiki,BaselineLMModel,isolated,0.0691196030233483,6,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0314256827151346,0,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0417753447095003,0,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.066166318939334,0,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0723947978781599,0,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0608220019457457,1,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.061355450280282,1,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0618436421676646,1,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0379705834412365,1,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0526856931607187,2,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0591747635596602,2,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0536320223215096,2,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0227181376658267,2,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0496680391518537,3,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0604436111060122,3,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0522525251691243,3,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0191565094381232,3,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0438694905112297,4,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0608565340592787,4,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0500238798544374,4,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0290074839009792,4,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0435648881420484,5,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0646625651560465,5,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0434249000812446,5,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0312349917863426,5,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0426496848249649,6,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,contextualized,0.0667320967464914,6,Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0393016886931478,6,Not Standardized,10M
+BaselineLM - The Pile,BaselineLMModel - the_pile,isolated,0.0335007389622932,6,Standardized,10M
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2499140962883836,0,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2442314512434531,0,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,0.070967149333246,0,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,0.0583067786048597,0,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.213178366903905,1,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2579968676593308,1,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,0.0290265975281282,1,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,0.0338388924874429,1,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.266720650465252,2,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2856034508767675,2,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,0.0096502061509843,2,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,-0.0136867261665744,2,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2618363415854647,3,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2965253361111233,3,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,-0.062502824775667,3,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,-0.0532930443105541,3,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2210340917347229,4,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2584083643123346,4,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,-0.0507344543725698,4,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,-0.0452877386327621,4,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2076840837658185,5,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2327282734252428,5,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,-0.0406553078238893,5,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,-0.0538318006485997,5,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2450451344798136,6,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,contextualized,0.2551705062442624,6,Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,0.0171562767823826,6,Not Standardized,Huge
+Pythia-14M,EleutherAI/pythia-14m,isolated,0.0178150108505423,6,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.4044711883885772,0,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.399978089799022,0,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,0.180368844945079,0,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,0.1818878125978352,0,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.3429052204022229,1,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.3990962450572808,1,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,0.1190642209047487,1,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,0.111746421908026,1,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.3733849079635902,2,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.4119173724633761,2,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,-0.0087443069117152,2,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,-0.0209431882338568,2,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.3216205776909207,3,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.4055947940339173,3,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,-0.0810871629159286,3,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,-0.054465348781741,3,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.3095404232299249,4,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.3951551848508334,4,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,-0.0880033526248092,4,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,-0.0630802083865521,4,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.2903702245905673,5,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.3519876296585472,5,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,-0.0993282787883234,5,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,-0.0618697127699346,5,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.2811439068270524,6,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,contextualized,0.3490349785299661,6,Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,0.0111694599344807,6,Not Standardized,Huge
+Pythia-70M,EleutherAI/pythia-70m,isolated,0.0405591138011092,6,Standardized,Huge
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2390620937487552,0,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.218909199232394,0,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,0.0760995433840053,0,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,0.0369982438596212,0,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2570878036232895,1,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2219304402048738,1,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,0.0981010795125756,1,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,0.0467521035235782,1,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2825348771972577,10,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2683039693353093,10,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0144933200722441,10,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0658323961698159,10,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2804790007768384,11,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.264714398862375,11,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0106323793808242,11,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0540967915902322,11,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2794078793702787,12,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2605786276065641,12,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0062714813730013,12,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0564383314487004,12,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2728503886857399,13,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2566436397079862,13,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0079286918246366,13,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0433574005717663,13,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2747564373789862,14,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2499980494051117,14,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0122706988766594,14,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0459407192184428,14,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2721804969775505,15,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2483851565700776,15,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0152196258240063,15,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0404523458983225,15,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2365673862627026,16,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2262540919159633,16,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0090142266874374,16,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0350562608251574,16,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2527124312041973,2,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2286902187827877,2,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,0.0381519402278029,2,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,0.0059183486860211,2,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2600270586387325,3,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2374582702575856,3,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.056881266719105,3,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.1001096713711216,3,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2625129736155707,4,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2444664597888463,4,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0502360916682057,4,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0914760893185584,4,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.267022020288232,5,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2526951290385634,5,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.07027713294962,5,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.1066588931250235,5,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2756116458128681,6,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2637625390267258,6,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.0926911527069034,6,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.1263510324750891,6,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2799780383866818,7,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2677888823598509,7,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.1219984996882163,7,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.1521560058801183,7,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2808904793754085,8,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2745671968230352,8,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.1807796596266138,8,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.193174752463561,8,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2820088071079621,9,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,contextualized,0.2745908060041768,9,Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.1750796943273131,9,Not Standardized,100M
+BabyLlama-100M,babylm/babyllama-100m-2024,isolated,-0.1899460359570881,9,Standardized,100M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1308099118946289,0,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1004010338222525,0,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.0578078082205553,0,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.0267436565131459,0,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1308906091951456,1,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1045405784547078,1,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.0646427233334047,1,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.00530327023856,1,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1545675245538028,10,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.134888227924246,10,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0164953761821782,10,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0325792527022804,10,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.156033111264238,11,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1356641593397293,11,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0121825992583237,11,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.02758747259936,11,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1529624853974304,12,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1329395406767331,12,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0136358908994058,12,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0261600950887891,12,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1488494145829312,13,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1297228845319751,13,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0138578039622182,13,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0290289867315218,13,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1447944369179501,14,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1274622587970522,14,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0186101160746204,14,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0323563887726261,14,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1425475084800647,15,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1273681169615698,15,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0157924508784532,15,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0336296897459587,15,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1153438340233327,16,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1060105824832561,16,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.0069198281444581,16,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0301973372817274,16,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1353507343706109,2,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1116721098588963,2,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.0531946356105728,2,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0094241465865643,2,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1327716946247225,3,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.113867715559903,3,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.0449705521870168,3,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0009604025918639,3,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1338840343034306,4,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1172129132544958,4,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.0204859055369772,4,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0124754722637413,4,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1364132498304379,5,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1193250352540508,5,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.0145358502562977,5,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0121327870757317,5,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1405519252639268,6,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1240790926283778,6,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.001589966713301,6,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0184948324972695,6,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1449052971590432,7,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1285122204073096,7,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.0027182785558728,7,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.017579280127801,7,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1507065417789816,8,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1343959677711352,8,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,0.0038375451107998,8,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0102061142010497,8,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1531949061406591,9,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,contextualized,0.1348385481408345,9,Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0095443530348912,9,Not Standardized,10M
+BabyLlama-10M,babylm/babyllama-10m-2024,isolated,-0.0228498688322828,9,Standardized,10M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.3703008495981061,0,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4073172832996852,0,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,0.0134863038980155,0,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,0.0344153705556428,0,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4490856620068477,1,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4439215402979242,1,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.1515835539506346,1,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0363759015116661,1,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4421763024456881,10,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4341762564899771,10,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.1063232311117251,10,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0324380369399846,10,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4288237548197759,11,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4248029722522319,11,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0389637096941907,11,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,0.0080076318269393,11,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4293837251174248,12,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4218327350549686,12,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,0.0486818516701346,12,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,0.0317715093746089,12,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.464173409219856,2,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4585399504704825,2,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.1370643047461285,2,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0449928012674859,2,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.466489131068302,3,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4612013485247885,3,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.138465587998497,3,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0550188435558345,3,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4682248662702648,4,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4620343560233578,4,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.1391129112479094,4,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0712682070152764,4,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.466118666124965,5,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4601266463222107,5,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.1435850189812606,5,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0826599588868043,5,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4665149127996327,6,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4575188157727073,6,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.141570992306119,6,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0790868420211198,6,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4628929406363425,7,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4563086391177519,7,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.1377772059536245,7,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0709880322948981,7,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4583998119560645,8,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4514963501765818,8,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.1346531600077556,8,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0654500634453902,8,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4537188449475198,9,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,contextualized,0.4443466740665198,9,Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.1285554487397439,9,Not Standardized,100M
+OPT-125M-100M,babylm/opt-125m-strict-2023,isolated,-0.0577701526899913,9,Standardized,100M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.258691800867069,0,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.263667289852643,0,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0621760062377395,0,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0579861198259702,0,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2267967600479784,1,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.1925009971065587,1,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0325003849177125,1,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0437054599628754,1,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.205224341699708,10,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.1983706620120945,10,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0481664397148695,10,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.044921197383412,10,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.1985568513687493,11,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.1933153303025326,11,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0517609811752172,11,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0505192032431335,11,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.1959837394952606,12,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.1959298891376633,12,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0368239283021997,12,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0414705076326809,12,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2196507850968259,2,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.1879009380335907,2,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0796005508414721,2,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0604766988648488,2,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2195876433847588,3,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.1932466066821176,3,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0761461057685304,3,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0575124557395756,3,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2197300982240918,4,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.1993641132448554,4,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0592511277960876,4,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0445055241380777,4,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2189367864070951,5,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2036916948043479,5,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0489193457092344,5,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0351110500133075,5,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2177700727922122,6,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2029925669498456,6,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0310248742868841,6,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0196530364557329,6,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2144282128040015,7,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2013699006480326,7,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0309590357853066,7,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0256756103784606,7,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2135976209452573,8,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2044164419002777,8,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0347118664840904,8,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0311814122452508,8,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.208362786037656,9,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,contextualized,0.2018490833729963,9,Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0451042272141684,9,Not Standardized,10M
+OPT-125M-10M,babylm/opt-125m-strict-small-2023,isolated,0.0447370782684886,9,Standardized,10M

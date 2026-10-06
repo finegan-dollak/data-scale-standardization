@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Data and code for: What Helped with Huge Data Hurt with Small Data"
+authors:
+  - family-names: Finegan-Dollak
+    given-names: Catherine
+    affiliation: University of Richmond
+    orcid: "https://orcid.org/0000-0003-4316-565X"
+version: 1.0.0
+date-released: 2026-10-06
+repository-code: "https://github.com/finegan-dollak/data-scale-standardization"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "What Helped with Huge Data Hurt with Small Data: Standardization, Representational Geometry, and Data Scale"
+  authors:
+    - family-names: Finegan-Dollak
+      given-names: Catherine
+  collection-title: "Proceedings of the Fourth BabyLM Workshop: Accelerating Language Modeling Research with Cognitively Plausible Datasets"
+  conference:
+    name: "BabyLM Workshop at EMNLP 2026"
+  year: 2026
