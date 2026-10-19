@@ -9,7 +9,7 @@ authors:
 version: 2.0.0
 date-released: 2026-10-19
 repository-code: "https://github.com/finegan-dollak/data-scale-standardization"
-license: MIT
+license: [MIT, CC-BY-4.0, CC-BY-SA-4.0]
 preferred-citation:
   type: conference-paper
   title: "What Helped with Huge Data Hurt with Small Data: Standardization, Representational Geometry, and Data Scale"
