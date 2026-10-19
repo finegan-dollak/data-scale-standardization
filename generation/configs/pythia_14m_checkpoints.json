@@ -1,0 +1,1083 @@
+{
+  "n_pairs": 500000,
+  "corpus_path": "data/inputs/corpus.txt",
+  "corpus_sizes": [
+    null,
+    "all"
+  ],
+  "embedding_mode": "contextualized",
+  "output_dir": "results/anisotropy",
+  "runs": [
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step1"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step2"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step4"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step8"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step16"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step32"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step64"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step128"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step256"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step512"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step1000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step2000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step3000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step4000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step5000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step6000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step7000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step8000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step9000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step10000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step11000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step12000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step13000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step14000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step15000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step16000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step17000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step18000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step19000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step20000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step21000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step22000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step23000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step24000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step25000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step26000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step27000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step28000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step29000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step30000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step31000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step32000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step33000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step34000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step35000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step36000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step37000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step38000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step39000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step40000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step41000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step42000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step43000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step44000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step45000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step46000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step47000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step48000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step49000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step50000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step51000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step52000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step53000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step54000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step55000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step56000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step57000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step58000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step59000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step60000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step61000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step62000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step63000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step64000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step65000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step66000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step67000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step68000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step69000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step70000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step71000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step72000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step73000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step74000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step75000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step76000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step77000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step78000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step79000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step80000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step81000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step82000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step83000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step84000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step85000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step86000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step87000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step88000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step89000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step90000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step91000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step92000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step93000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step94000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step95000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step96000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step97000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step98000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step99000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step100000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step101000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step102000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step103000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step104000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step105000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step106000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step107000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step108000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step109000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step110000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step111000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step112000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step113000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step114000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step115000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step116000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step117000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step118000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step119000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step120000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step121000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step122000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step123000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step124000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step125000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step126000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step127000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step128000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step129000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step130000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step131000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step132000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step133000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step134000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step135000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step136000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step137000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step138000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step139000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step140000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step141000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step142000"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m",
+      "revision": "step143000"
+    }
+  ]
+}

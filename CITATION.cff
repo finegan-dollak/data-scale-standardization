@@ -6,8 +6,8 @@ authors:
     given-names: Catherine
     affiliation: University of Richmond
     orcid: "https://orcid.org/0000-0003-4316-565X"
-version: 1.0.0
-date-released: 2026-10-06
+version: 2.0.0
+date-released: 2026-10-19
 repository-code: "https://github.com/finegan-dollak/data-scale-standardization"
 license: MIT
 preferred-citation:

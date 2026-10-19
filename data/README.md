@@ -9,6 +9,8 @@ Per-model, per-layer results for *"What Helped with Huge Data Hurt with Small Da
 | `dim_reduction.csv` | 25,701 | Rogue dimensionality of each layer, for k = 1, 3, 5 |
 | `isolated_vs_contextualized.csv` | 352 | Appendix A comparison of isolated and contextualized word vectors |
 
+`inputs/` holds the Wikipedia sentences used to generate these results; it has its own README and license.
+
 ## Models and checkpoints
 
 The data cover 18 models:
@@ -77,7 +79,7 @@ Results for the fully trained versions of eight models (BaselineLM, BabyLlama, O
 
 - `simlex_results.csv` contains each Pythia-70M step 70000 row twice (14 exact duplicate rows). However, every analysis that uses simlex_results.csv goes through compute_delta_spearman, which calls pivot_table, so the 14 duplicated rows collapse back into one before Δρ is ever computed.
 - Pythia-70M has no step 14000 checkpoint in any file.
-- Pythia's last numbered checkpoint (step 143000) is included with `data_size` `Unknown`, separately from the fully trained model (blank `step`, `data_size` `Huge`). These are likely the same weights. Within-model analyses use only the step 143000 rows and across-model analyses use only the fully trained rows, so no analysis counts them twice.
+- Pythia's last numbered checkpoint (step 143000) is included with `data_size` `Unknown`, separately from the fully trained model (blank `step`, `data_size` `Huge`). Their results are identical in every file. Within-model analyses use only the step 143000 rows and across-model analyses use only the fully trained rows, so no analysis counts them twice.
 
 ## License
 

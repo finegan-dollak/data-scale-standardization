@@ -39,3 +39,9 @@ htmlcov/
 *.swp
 *~
 
+
+# Generated results (generation/ scripts write here)
+results/
+
+# SimLex-999 is downloaded separately; do not redistribute
+data/inputs/SimLex-999.txt

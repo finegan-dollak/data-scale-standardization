@@ -1,0 +1,1230 @@
+{
+  "n_pairs": 500000,
+  "corpus_path": "data/inputs/corpus.txt",
+  "corpus_sizes": [
+    null,
+    "all"
+  ],
+  "embedding_mode": "contextualized",
+  "output_dir": "results/anisotropy",
+  "runs": [
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00000477"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00000954"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00001431"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00001908"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00002385"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00002862"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00003339"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00003816"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00004293"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00004770"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00005247"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00005724"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00006201"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00006678"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00007155"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00007632"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00008109"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00008586"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00009063"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00009540"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00010017"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00010494"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00010971"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00011448"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00011925"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00012402"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00012879"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00013356"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00013833"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00014310"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00014787"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00015264"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00015741"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00016218"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00016695"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00017172"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00017649"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00018126"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00018603"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00019080"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00019557"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00020034"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00020511"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00020988"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00021465"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00021942"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00022419"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00022896"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00023373"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00023850"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00024327"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00024804"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00025281"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00025758"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00026235"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00026712"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00027189"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00027666"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00028143"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00028620"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00029097"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00029574"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00030051"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00030528"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00031005"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00031482"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00031959"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00032436"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00032913"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00033390"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00033867"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00034344"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00034821"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00035298"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00035775"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00036252"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00036729"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00037206"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00037683"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00038160"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00038637"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00039114"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00039591"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00040068"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00040545"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00041022"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00041499"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00041976"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00042453"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00042930"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00043407"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00043884"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00044361"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00044838"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00045315"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00045792"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00046269"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00046746"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00047223"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00047700"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00048177"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00048654"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00049131"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00049608"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00050085"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00050562"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00051039"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00051516"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00051993"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00052470"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00052947"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00053424"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00053901"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00054378"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00054855"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00055332"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00055809"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00056286"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00056763"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00057240"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00057717"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00058194"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00058671"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00059148"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00059625"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00060102"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00060579"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00061056"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00061533"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00062010"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00062487"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00062964"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00063441"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00063918"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00064395"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00064872"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00065349"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00065826"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00066303"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00066780"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00067257"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00067734"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00068211"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00068688"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00069165"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00069642"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00070119"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00070596"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00071073"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00071550"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00072027"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00072504"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00072981"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00073458"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00073935"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00074412"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00074889"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00075366"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00075843"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00076320"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00076797"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00077274"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00077751"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00078228"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00078705"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00079182"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00079659"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00080136"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00080613"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00081090"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00081567"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00082044"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00082521"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Gemstone-512x11",
+      "model_id": "Gemstone-Models/Gemstone-512x11",
+      "tokenizer": "Gemstone-Models/Gemstone-512x11",
+      "revision": "step_00082998"
+    }
+  ]
+}
