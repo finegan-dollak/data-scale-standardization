@@ -1,3 +1,4 @@
+# Analysis notebook
 ipykernel==7.2.0
 matplotlib==3.10.9
 numpy==2.4.4
@@ -6,3 +7,12 @@ pingouin==0.6.1
 scipy==1.17.1
 seaborn==0.13.2
 statsmodels==0.14.6
+
+# generation/ scripts (numpy, pandas, and scipy above are also used)
+# torch, transformers, and datasets are the versions the paper's results were
+# produced with; the others were not recorded and are left unpinned.
+torch==2.10.0
+transformers==5.0.0
+datasets==4.5.0   # only needed for gather_context_sentences.py and gather_corpus.py
+nltk              # only needed for gather_context_sentences.py and gather_corpus.py
+tqdm

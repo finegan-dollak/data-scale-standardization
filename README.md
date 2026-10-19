@@ -3,7 +3,14 @@ Code & data for [*"What Helped with Huge Data Hurt with Small Data: Standardizat
 
 
 ## Current Release
-This release contains the per-model, per-layer results (in `data/`) and the notebook that reproduces every analysis, table, and figure in the paper from those results. Code for generating the results files from the models is not included in this release.
+Version 2 adds the code that generated the results from the models. The repository contains:
+
+- `data/`: the per-model, per-layer results (see `data/README.md`).
+- `notebooks/paper_analyses.ipynb`: reproduces every analysis, table, and figure in the paper from the results in `data/`.
+- `generation/`: the code that produced `data/` from the models, with configs for every model and checkpoint in the paper (see `generation/README.md`).
+- `data/inputs/`: the Wikipedia context sentences and corpus the generation code uses.
+
+To reproduce the paper's analyses, you only need `data/` and the notebook. Use `generation/` to regenerate results or to apply the same measurements to other models.
 
 ## How to Run
 Requires Python 3.11 or newer (tested with 3.14).
@@ -16,6 +23,15 @@ pip install -r requirements.txt
 ```
 
 Use `notebooks/paper_analyses.ipynb` to reproduce the analyses reported in the paper; open in VS Code or another Jupyter-compatible editor.
+
+To regenerate results from the models, see `generation/README.md`. Its dependencies (including PyTorch) are in the same `requirements.txt`.
+
+## Notes on the paper text
+
+Two small inconsistencies between the published paper and the code, neither of which affects any conclusion:
+
+- **Section 4.1.1, huge-data mean.** The paper reports mean Δρ = 0.0369 for the four huge-data models. That is the mean over all layers of all four models. The mean of the four per-model averages, which is what the reported p-value (0.015) and Figure 1 use, is 0.0395. The CP-data mean (−0.0158) is a per-model average.
+- **Section 4.1.2, the 100B boundary.** The paper describes the huge-data checkpoints as those trained on more than 100B tokens. The code uses 100B or more, which includes the Gemstone-256x23 and Gemstone-512x11 checkpoints at step 23850 (exactly 100B tokens). Table 2 reflects the code.
 
 
 ## Citation
@@ -37,4 +53,4 @@ These differences do not change the paper's conclusions. Indirect effects that w
 
 ## License
 
-Code in this repository is released under the MIT License (see LICENSE). Data files in data/ are released under CC BY 4.0 (see data/README.md).
+Code in this repository is released under the MIT License (see LICENSE). Data files in data/ are released under CC BY 4.0 (see data/README.md), except the Wikipedia-derived files in data/inputs/, which are under CC BY-SA 4.0 (see data/inputs/README.md).

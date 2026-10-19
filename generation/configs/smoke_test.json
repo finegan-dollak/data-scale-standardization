@@ -1,0 +1,18 @@
+{
+  "n_pairs": 500000,
+  "corpus_path": "data/inputs/corpus.txt",
+  "corpus_sizes": [
+    null,
+    "all"
+  ],
+  "embedding_mode": "contextualized",
+  "output_dir": "results/anisotropy_smoke_test",
+  "runs": [
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m"
+    }
+  ]
+}

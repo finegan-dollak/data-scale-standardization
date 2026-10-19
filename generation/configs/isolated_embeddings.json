@@ -1,0 +1,45 @@
+{
+  "corpus_sizes": [
+    null,
+    "all"
+  ],
+  "embedding_mode": "isolated",
+  "runs": [
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-14M",
+      "model_id": "EleutherAI/pythia-14m",
+      "tokenizer": "EleutherAI/pythia-14m"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "Pythia-70M",
+      "model_id": "EleutherAI/pythia-70m",
+      "tokenizer": "EleutherAI/pythia-70m"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "BabyLlama",
+      "model_id": "babylm/babyllama-10m-2024",
+      "tokenizer": "babylm/babyllama-10m-2024"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "BabyLlama-100M",
+      "model_id": "babylm/babyllama-100m-2024",
+      "tokenizer": "babylm/babyllama-100m-2024"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "opt-125m-strict-small-2023",
+      "model_id": "babylm/opt-125m-strict-small-2023",
+      "tokenizer": "babylm/opt-125m-strict-small-2023"
+    },
+    {
+      "type": "pretrained_hf",
+      "name": "opt-125m-strict-2023",
+      "model_id": "babylm/opt-125m-strict-2023",
+      "tokenizer": "babylm/opt-125m-strict-2023"
+    }
+  ]
+}
